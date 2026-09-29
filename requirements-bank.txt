@@ -1,0 +1,17 @@
+# Demo Bank BI Monitoring v2.1.0 - Runtime Requirements
+#
+# Python packages:
+#   No third-party Python packages are required by the current UAT runtime.
+#   The application uses the Python standard library.
+#
+# Windows/runtime dependencies:
+#   - Windows 10/11 or approved Windows Server
+#   - Python 3.10+ (3.12 used in current UAT testing)
+#   - Windows PowerShell / .NET System.Data.SqlClient for SQL access
+#   - Network route to the approved ReportServer SQL instance for bank UAT
+#   - Ollama (optional for monitoring; required for natural-language Copilot)
+#   - Local model target: qwen2.5:3b (or another approved local qwen2.5 tag)
+#
+# Mail:
+#   Gmail SMTP/App Password is UAT-only in this package. Production must use
+#   the bank-approved functional mailbox/relay once confirmed.

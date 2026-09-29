@@ -1,0 +1,12 @@
+Demo Bank BI Monitoring v2.1.0 - Local Ollama/Qwen Setup
+
+Current design reuses an installed local Ollama service.
+Default target: qwen2.5:3b
+External LLM API: NONE
+Power BI REST API: NONE
+
+Check:
+  ollama list
+  8-CHECK-OLLAMA-QWEN.cmd
+
+The local model interprets questions and summarizes governed tool results. It does not calculate authoritative KPIs or write monitoring state.

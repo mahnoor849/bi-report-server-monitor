@@ -1,0 +1,15 @@
+Demo Bank BI Monitoring v2.1.0 - Bank UAT Quick Start
+
+1. Extract the package on the approved bank Windows device.
+2. Open PowerShell in the project root.
+3. Run: Get-ChildItem . -Recurse | Unblock-File
+4. Run: 1-SELF-TEST.cmd
+5. Run: 8-CHECK-OLLAMA-QWEN.cmd (required only for AI chat, not core monitoring).
+6. Run: 0-RUN-BANK-UAT-WIZARD.cmd
+7. Enter the confidential SQL Server/instance only in the hidden runtime prompt.
+8. The wizard blocks live KPI use until read-only SQL preflight succeeds.
+9. Reconcile dashboard KPIs against database/03_ExecutionLog3_KPI_Validation.sql.
+
+Default Copilot model: qwen2.5:3b through local Ollama.
+Power BI monitoring source: ReportServer SQL metadata only.
+No Power BI REST API is required.

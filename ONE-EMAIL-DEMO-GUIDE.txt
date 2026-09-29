@@ -1,0 +1,12 @@
+Demo Bank BI Monitoring v2.1.0 - Controlled UAT Email
+
+The controlled real UAT mail path has already been exercised successfully according to project-owner testing. Do not resend unnecessarily.
+
+If another explicit test is approved, use 10-RUN-PRESENTATION-DEMO-WITH-ONE-EMAIL.cmd or 6-START-ONE-UAT-EMAIL-TEST.cmd.
+
+Safety:
+- operational alerts remain OFF
+- one accepted UAT message maximum per controlled session
+- message says UAT TEST / NO PRODUCTION IMPACT
+- SMTP Accepted is not a read receipt
+- Confirm Inbox Receipt only after a human verifies the intended inbox

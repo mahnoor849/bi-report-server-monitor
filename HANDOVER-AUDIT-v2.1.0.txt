@@ -1,0 +1,37 @@
+
+Demo Bank BI Monitoring - Handover Audit v2.1.0
+================================================================================================
+[PASS] Canonical handover documentation/files are present         
+[PASS] VERSION.txt is 2.1.0                                       2.1.0
+[PASS] Runtime/browser/audit documentation version markers agree  
+[PASS] Canonical handover docs contain no stale release markers   
+[PASS] Local bank.json is not shipped                             
+[PASS] Runtime monitoring database is not shipped                 
+[PASS] Package has no __pycache__                                 
+[PASS] Obsolete generic local-LLM launcher removed                
+[PASS] All text assets are UTF-8 readable                         
+[PASS] All configuration templates are valid JSON                 
+[PASS] UAT template keeps SQL identity as runtime placeholder     
+[PASS] Operational alerts default OFF in UAT                      
+[PASS] Controlled UAT real mail defaults OFF                      
+[PASS] Local AI endpoint is loopback                              
+[PASS] Default local model is qwen2.5:3b                          
+[PASS] Canonical root launchers are present                       
+[PASS] Bank preflight launcher uses hidden SQL-source PowerShell path 
+[PASS] ReportServer SQL collector remains read-only               
+[PASS] Power BI collector has no REST/HTTP dependency             
+[PASS] Ollama config rejects remote endpoints                     
+[PASS] Copilot still uses governed tool catalog                   
+[PASS] Copilot has no hard-coded keyword response router          
+[PASS] Health endpoint reports current package version            
+[PASS] Browser-visible local errors are generic, not raw stack traces 
+[PASS] KPI SQL validation scopes to dbo.Catalog                   
+[PASS] KPI SQL uses SaveToCatalog completion rule                 
+[PASS] PBIRS discovery SQL is read-only                           
+[PASS] No obvious hard-coded password/App Password is present     
+[PASS] Production gates explicitly cover hosting/mail/auth/state  
+[PASS] Developer guide explains KPI, SQL, Copilot, email and versioning changes 
+[PASS] Troubleshooting covers Windows, SQL, UI, Ollama and mail   
+================================================================================================
+HANDOVER AUDIT RESULT: 31/31 checks passed
+HANDOVER AUDIT PASSED - package is internally consistent for transfer; production gates remain separately pending.

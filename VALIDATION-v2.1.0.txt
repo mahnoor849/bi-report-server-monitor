@@ -1,0 +1,34 @@
+Demo Bank BI Monitoring v2.1.0 - Final Handover Validation
+
+CORE SELF-TEST
+44/44 PASS
+No external email was sent.
+
+FULL OFFLINE AUDIT
+97/97 PASS
+No bank SQL, no real Ollama service, no external AI API, and no external email were used.
+
+HANDOVER AUDIT
+31/31 PASS
+Documentation, versioning, launchers, privacy defaults, SQL validation scripts and continuation guidance are internally consistent.
+
+USER-EXECUTED EVIDENCE
+Controlled UAT email send: reported successful by project owner.
+Inbox receipt: do not mark as verified unless explicitly confirmed by a human recipient/operator.
+
+PENDING BANK/PRODUCTION EVIDENCE
+- real ReportServer SQL connectivity and schema confirmation
+- Windows read permissions
+- real KPI reconciliation against SSMS
+- optional schedule/RunningJobs compatibility
+- production mailbox/relay
+- production VM/service/SSO/TLS
+- load/soak/security sign-off
+
+This validation record certifies the delivered package's offline/UAT logic and handover consistency. It is not a production-go-live certificate.
+
+DOCUMENTATION QA
+Complete handover manual: 28 pages rendered successfully from DOCX and visually reviewed page-by-page.
+PDF: generated from the verified DOCX and separately rendered to 28 pages for final visual verification.
+DOCX accessibility audit: 0 high-severity findings; remaining medium notices relate to decorative/callout layout tables rather than data tables.
+Canonical manual: Demo_Bank_BI_Monitoring_Handover_Manual_v2.1.0.pdf / .docx

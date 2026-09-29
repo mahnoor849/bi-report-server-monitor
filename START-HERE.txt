@@ -1,0 +1,10 @@
+DEMO BANK BI MONITORING v2.1.0 - START HERE
+
+1. Read 00-HANDOVER-README.md
+2. Run 1-SELF-TEST.cmd
+3. Run 7-FULL-AUDIT.cmd
+4. For local demo: run 8-CHECK-OLLAMA-QWEN.cmd, then 0-RUN-LOCAL-DEMO.cmd
+5. For bank UAT: use 0-RUN-BANK-UAT-WIZARD.cmd
+6. Before ownership transfer: run 11-HANDOVER-AUDIT.cmd and complete HANDOVER-CHECKLIST.md
+
+Important: UAT/presentation-ready is not the same as production-go-live certified.
